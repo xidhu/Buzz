@@ -1,0 +1,27 @@
+nav {
+    top: 0;
+    left: 0;
+    right:0;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    background-size:cover;
+    background-image: url('nav-background.jpg'); 
+    -webkit-transition: opacity 10s ease-out-in;
+    -moz-transition: opacity 10s ease-in-out;
+    -o-transition: opacity 10s ease-in-out;
+    transition: opacity 10s ease-in-out;
+}
+
+test1 {
+    top: 0;
+    left: 0;
+    right:0;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    background-size:cover;
+    background-image: url('background.jpg'); 
+    -webkit-animation-iteration-count: 1; /* Safari 4.0 - 8.0 */ 
+    animation-iteration-count: 1;
+}
