@@ -14,4 +14,9 @@ if (typeof(Storage) !== "undefined") {
 function submitIncome() {
 	Materialize.toast('Added Income', 1000, 'rounded');
 	alert(income_input.value);
+	
+}
+
+function addIncome(){
+	alert();
 }
